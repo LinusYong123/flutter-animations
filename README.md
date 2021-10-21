@@ -1,2 +1,5 @@
-# flutter-animations
-All coursefiles for the Flutter Animations tutorial series on the Net Ninja youtube channel.
+# TweenAnimationBuilder
+- Create custom implicit animations
+- Define our own tweens with custom start & end points
+# Tweens
+- Maps steps between a start and end value
