@@ -8,8 +8,8 @@ class TripList extends StatefulWidget {
 }
 
 class _TripListState extends State<TripList> {
+  GlobalKey<AnimatedListState> _listKey = GlobalKey<AnimatedListState>();
   List<Widget> _tripTiles = [];
-  final GlobalKey<AnimatedListState> _listKey = GlobalKey<AnimatedListState>();
 
   @override
   void initState() {
@@ -27,10 +27,6 @@ class _TripListState extends State<TripList> {
       Trip(title: 'Ski Adventure', price: '750', nights: '2', img: 'ski.png'),
       Trip(title: 'Space Blast', price: '600', nights: '4', img: 'space.png'),
     ];
-
-    _trips.forEach((Trip trip) {
-      
-    });
 
     Future ft = Future((){});
     _trips.forEach((Trip trip) { 
